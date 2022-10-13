@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * Using printf to output a string to 
+ * Using printf to output a string to
  * standard output
  */
 
