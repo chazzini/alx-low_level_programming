@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * main - Entry point
  * Using  puts() functions
  * to output string to the
  * standard output

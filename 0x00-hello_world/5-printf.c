@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  * Using printf to output a string to
  * standard output
+ * Return: Always 0 (Success)
  */
 
 int main(void)
