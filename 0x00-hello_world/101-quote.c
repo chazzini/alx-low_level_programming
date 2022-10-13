@@ -9,8 +9,9 @@
 
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\"
-			- Dora Korpar, 2015-10-19\n");
+	char[] s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	fprintf(stderr, s);
 
 	return (1);
 }
