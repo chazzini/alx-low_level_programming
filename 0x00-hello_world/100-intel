@@ -1,0 +1,2 @@
+#include <stdio>
+gcc -S -masm=intel $CFILE
