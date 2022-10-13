@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main Program entry point
+ * main - Program entry point
  * output to standard error
  * wthout puts() or printf
- * Return : Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 
 int main(void)
