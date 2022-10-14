@@ -17,14 +17,14 @@
 int main(void)
 {
 	char ch = 'a';
-	int i = 0;
+	int i;
 
-	for (i; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i + '0');
 	}
 
-	while (ch = < 'z')
+	while (ch <= 'f')
 	{
 		putchar(ch);
 
