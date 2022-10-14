@@ -16,7 +16,7 @@ int main(void)
 
 	while (j < 10)
 	{
-		putchar(j);
+		printf("%d", j);
 
 		j++;
 	}
