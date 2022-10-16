@@ -12,22 +12,30 @@
  */
 int main(void)
 {
-	int j = 0;
+	int j = 0; /*char for ten value*/
 
-	while (j <= 89)
+	while (j <= 8)
 	{
+		int i = 0; /*char for unit value*/
 
-		if (j <= 9)
+		while (i <= 9)
 		{
-			putchar('0');
-		}
+			if (i % 10 == 0)
+			{
+				i++;
+				continue;
+			}
 
-		putchar(j + '0');
+			putchar(j + '0'); /*print the ten to output*/
+			putchar(i + '0'); /*print the unit to output*/
 
-		if ( j <= 88)
-		{
-			putchar(',');
-			putchar(' ');
+			if (!(j == 8 && i == 9))
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+
 		}
 		j++;
 	}
