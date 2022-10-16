@@ -16,7 +16,7 @@ int main(void)
 
 	while (j <= 8)
 	{
-		int i = 0; /*char for unit value*/
+		int i =  j + 1; /*char for unit value*/
 
 		while (i <= 9)
 		{
