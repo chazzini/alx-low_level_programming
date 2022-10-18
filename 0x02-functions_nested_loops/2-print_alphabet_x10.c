@@ -10,8 +10,8 @@
 #endif
 
 /**
- * print_alphabet - print all lower
- * case alphabet
+ * print_alphabet_x10 - print all lower
+ * case alphabet 10 times
  * program
  * Return: void Always (success)
  */
