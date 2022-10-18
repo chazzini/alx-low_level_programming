@@ -6,7 +6,7 @@
  */
 #include "main.h"
 
-
+void print_alphabet(void);
 
 /**
  * main - Entry point for
@@ -16,8 +16,13 @@
 
 int main(void)
 {
+	print_alphabet();
+	return (0);
 
+}
 
+void print_alphabet(void)
+{
 	int i = 97;/* counter variable to hold index of string*/
 
 	while (i <= 122)
@@ -27,5 +32,6 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
+
 }
+
