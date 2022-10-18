@@ -11,12 +11,11 @@
 #endif
 
 /**
- * main - Entry point for
+ * print_alphabet - print all lower
+ * case alphabet
  * program
- * Return: 0 Always (success)
+ * Return: void Always (success)
  */
-
-
 void print_alphabet(void)
 {
 	int i = 97;/* counter variable to hold index of string*/
