@@ -9,7 +9,7 @@
  * @m: m int the second number
  * Return:int sume
  */
-int add(int n,int m)
+int add(int n, int m)
 {
 	return (n + m);
 }
