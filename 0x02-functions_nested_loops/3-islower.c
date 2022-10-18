@@ -17,7 +17,7 @@
  *
  * Return: 1 or 0 Always (success)
  */
-int _islower (char c)
+int _islower(char c)
 {
 	int z = (int) c;
 
