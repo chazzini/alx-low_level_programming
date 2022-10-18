@@ -4,9 +4,11 @@
  * in lowercase with _putchar
  *followed by a new line
  */
+#ifndef HEADER_FILE
+#define HEADER_FILE
+#include "1-main.h"
 #include "main.h"
-
-void print_alphabet(void);
+#endif
 
 /**
  * main - Entry point for
@@ -14,12 +16,6 @@ void print_alphabet(void);
  * Return: 0 Always (success)
  */
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-
-}
 
 void print_alphabet(void)
 {
