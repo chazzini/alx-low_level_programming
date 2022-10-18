@@ -3,7 +3,7 @@
  * that prints _putchar
  *followed by a new line
  */
-#include "_putchar.h"
+#include "main.h"
 
 
 
