@@ -16,8 +16,7 @@ void more_numbers(void)
 		{
 			for (j = 0; j <= 9; j++)
 			{
-				if (i == 0 && j == 0)
-					continue;
+
 				if (i == 1 && j == 5)
 					break;
 
