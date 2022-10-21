@@ -10,7 +10,7 @@ void print_diagonal(int s)
 	int i, j;
 
 
-	for (i = 0; i <= s; i++)
+	for (i = 1; i <= s; i++)
 	{
 		if (s == 0)
 			break;
