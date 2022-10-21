@@ -4,5 +4,7 @@
 
 int _isupper(char c);
 int _isdigit(int c);
+int _putchar(char c);
+void print_numbers(void);
 int mul(int a, int b);
 #endif/*MAIN_H*/
