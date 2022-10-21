@@ -9,6 +9,7 @@ void print_numbers(void);
 void print_most_numbers(void);
 void print_line(int s);
 int mul(int a, int b);
+void print_square(int s);
 void print_diagonal(int s);
 void more_numbers(void);
 #endif/*MAIN_H*/
