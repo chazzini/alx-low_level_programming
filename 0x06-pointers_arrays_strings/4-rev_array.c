@@ -6,8 +6,6 @@
  * @n: number of elements of the array.
  * Return: no return.
  */
-#include "holberton.h"
-
 void reverse_array(int *a, int n)
 {
 	int i, last;
