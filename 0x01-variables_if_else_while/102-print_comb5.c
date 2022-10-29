@@ -10,46 +10,38 @@
  *
  *Return: 0 Always (Success)
  */
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Succes)
- */
 int main(void)
 {
-	int tho;
-	int hun;
-	int ten;
-	int bas;
+	int ifirst;
+	int i;
+	int jfirst;
+	int j;
 
-	for ( tho = 0 ; tho < 10 ; tho++)
+	for (ifirst = 48; ifirst < 58; ifirst++)
 	{
-
-		for (hun = 0 ; hun <= 10 ; hun++)
+		for (i = 48; i < 58; i++)
 		{
-
-			for (ten = 0 ; ten < 10 ; ten++)
+			j = i + 1;
+			jfirst = ifirst;
+			for (; jfirst < 58; jfirst++)
 			{
-				for ( bas = 0 ; bas < 10 ; bas++)
+				for (; j < 58; j++)
 				{
-					putchar('0' + tho);
-					putchar('0' + hun);
-					putchar(32);
-					putchar('0' + ten);
-					putchar('0' + bas);
-					if (!(tho == 9 && hun == 8))
+					putchar(ifirst);
+					putchar(i);
+					putchar(' ');
+					putchar(jfirst);
+					putchar(j);
+					if (ifirst != 57 || jfirst != 57 || i != 56 || j != 57)
 					{
 						putchar(',');
-						putchar(32);
+						putchar(' ');
 					}
-					bas++;
 				}
+				j = 48;
 			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
