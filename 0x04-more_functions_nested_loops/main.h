@@ -13,4 +13,5 @@ int mul(int a, int b);
 void print_square(int s);
 void print_diagonal(int s);
 void more_numbers(void);
+void print_triangle(int size);
 #endif/*MAIN_H*/
